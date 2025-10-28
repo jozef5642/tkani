@@ -122,7 +122,7 @@ export const Header = () => {
             <img
               src="/Bag Icon.svg"
               alt="Корзина"
-              className="w-6 h-6 transition duration-300 hover:filter hover:invert hover:sepia hover:saturate-500 hover:hue-rotate-330 hover:brightness-100 hover:contrast-100"
+              className="w-6 h-6 hover:opacity-70 transition"
             />
           </Link>
         </div>
