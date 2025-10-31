@@ -196,7 +196,7 @@ export const Header = () => {
             className="flex-1 border border-dark/20 rounded-full px-4 py-2 focus:outline-none focus:border-accent bg-white text-dark placeholder-dark/50"
           />
           <button onClick={() => setShowSearch(false)}>
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#e63946">
+            <svg xmlns="http://www.w3.org/2000/svg" className="bg-accent w-9 h-9 rounded-full border p-2" fill="none" viewBox="0 0 24 24" stroke="#e63946">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
             </svg>
           </button>
