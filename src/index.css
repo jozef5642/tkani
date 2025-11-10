@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Применяем фон и шрифты ко всей странице */
+@layer base {
+  html {
+    @apply bg-light text-dark font-inter;
+  }
+}

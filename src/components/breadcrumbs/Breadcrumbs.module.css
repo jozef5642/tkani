@@ -1,0 +1,24 @@
+
+ol {
+    display: flex;
+    list-style: none;
+    padding-bottom: 20px;
+    gap: 8px;
+}
+.title {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #101010;
+}
+.title:hover {
+    color: #9B1E1C;
+}
+.title_path {
+    font-size: 14px;
+    font-weight: 600;
+}
+.title_path:hover {
+    color: #9B1E1C;
+    cursor: pointer;
+}
